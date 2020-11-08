@@ -4,7 +4,7 @@ const bodyEl = document.querySelector('body');
 const startBtn = document.querySelector('button[data-action="start"]');
 const stopBtn = document.querySelector('button[data-action="stop"]');
 
-let timer;
+let timeout = null;
 
 startBtn.addEventListener('click', onStart);
 stopBtn.addEventListener('click', onStop);
@@ -15,13 +15,13 @@ const randomIntegerFromInterval = (min, max) => {
 };
 
 function onStart() {
-    timer = setInterval(() => {
+    timeout = setInterval(() => {
 		bodyEl.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length - 1)];
 	}, 1000);
     startBtn.disabled = true;
 };
 
 function onStop() {
-    clearInterval(timer);
+    clearInterval(timeout);
     startBtn.disabled = false;
 };
