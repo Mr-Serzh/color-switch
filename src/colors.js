@@ -1,5 +1,4 @@
- export default  [
-  '#FFFFFF',
+export default [
   '#2196F3',
   '#4CAF50',
   '#FF9800',

@@ -1,25 +1,25 @@
 {
-  "name": "goit-js-hw-11-color-switch",
+  "name": "color-switch",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-hw-11-color-switch/",
+    "build": "parcel build src/index.html --public-url /color-switch/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mr-Serzh/goit-js-hw-11-color-switch.git"
+    "url": "git+https://github.com/Mr-Serzh/color-switch.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mr-Serzh/goit-js-hw-11-color-switch/issues"
+    "url": "https://github.com/Mr-Serzh/color-switch/issues"
   },
-  "homepage": "https://Mr-Serzh.github.io/goit-js-hw-11-color-switch",
+  "homepage": "https://Mr-Serzh.github.io/color-switch",
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "parcel-bundler": "^1.12.4",
